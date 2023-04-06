@@ -6,8 +6,8 @@ POST http://localhost:3000/auth/register
 Content-Type: application/json
 
 {
-    "username": "huy4@gmail.com",
-    "password": "123456"
+    "username": "nguyentam2@gmail.com",
+    "password": "123456789"
 }
 
 ### Login
@@ -16,8 +16,8 @@ POST http://localhost:3000/auth/login
 Content-Type: application/json
 
 {
-    "username": "huy3@gmail.com",
-    "password": "123456"
+    "username": "nguyentam2@gmail.com",
+    "password": "123456789"
 }
 
 
@@ -25,14 +25,13 @@ Content-Type: application/json
 
 POST http://localhost:3000/movie
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh1eTNAZ21haWwuY29tIiwiaWF0IjoxNjgwMTQ4NTc2LCJleHAiOjE2ODAyMzQ5NzZ9.uHpnjGsN70Y9mWmneFpRPXQ9ZNJKrMRG_8e6Rz1Qumg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ndXllbnRhbTJAZ21haWwuY29tIiwiaWF0IjoxNjgwNzYyNzA4LCJleHAiOjE2ODA4NDkxMDh9.6l2njt3ZC-el0XayCPqYupO1yZyV4YW5nW_w4V9BevY
 
 {
-    "url": "http://localhost:3000/movie"
+    "url": "https://www.youtube.com/watch?v=wRIll-G0SQE"
 }
 
 ### get all movice
 
 GET http://localhost:3000/movie
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh1eTNAZ21haWwuY29tIiwiaWF0IjoxNjgwMTQ4NTc2LCJleHAiOjE2ODAyMzQ5NzZ9.uHpnjGsN70Y9mWmneFpRPXQ9ZNJKrMRG_8e6Rz1Qumg
